@@ -8,11 +8,11 @@
 class Reverser{
 protected:
     int value;
-    string characters;
+    std::string characters;
 public:
     Reverser();
     int reverseDigit(int value);
-    string reverseString(string characters);
+    std::string reverseString(std::string characters);
 };
 
 
