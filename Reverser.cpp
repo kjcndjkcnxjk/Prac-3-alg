@@ -1,7 +1,7 @@
 #include"Reverser.h"
 using namespace std;
 
-int Reverser::Reverser:reverseDigit(int value){
+int Reverser::Reverser::reverseDigit(int value){
     if(value<0)return -1;
     int n=0;
     int len=value;
@@ -17,7 +17,7 @@ int Reverser::Reverser:reverseDigit(int value){
     }
 }
 
-string Reverser::Reverser:reverseString(string characters){
+string Reverser::Reverser::reverseString(string characters){
     int len = characters.length();
     if(len<1)return "ERROR";
     if(len==1)return characters;
