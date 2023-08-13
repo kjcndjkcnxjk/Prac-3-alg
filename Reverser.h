@@ -6,7 +6,7 @@
 #include <cmath>
 
 class Reverser{
-private:
+protected:
     int value;
     string characters;
 public:
